@@ -1,0 +1,2 @@
+/Users/usamacloud/cine_verse git/cine_verse/android/app/.cxx/Debug/4l473s3r/x86_64/CMakeFiles/edit_cache.dir
+/Users/usamacloud/cine_verse git/cine_verse/android/app/.cxx/Debug/4l473s3r/x86_64/CMakeFiles/rebuild_cache.dir
