@@ -56,29 +56,27 @@ class AppElevatedButton extends StatelessWidget {
             border: onlyOutline
                 ? Border.all(
                     width: width1,
-                    color: color ?? AppColors.primaryColor,
+                    color: color ?? AppColors.blackPearl,
                   )
                 : border,
             color: isActive
                 ? onlyOutline
                     ? AppColors.white
-                    : color ?? AppColors.primaryColor
-                : AppColors.roofJungleGreen,
+                    : color ?? AppColors.blackPearl
+                : AppColors.transparent,
             borderRadius: BorderRadius.circular(borderRadius12),
           ),
           child: Center(
             child: isLoading
                 ? AppProgressIndicator(
                     color: loadingColor ??
-                        (onlyOutline
-                            ? AppColors.primaryColor
-                            : AppColors.white))
+                        (onlyOutline ? AppColors.blackPearl : AppColors.white))
                 : prefixIcon != null
                     ? Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           SvgPicture.asset(prefixIcon!,
-                              color: prefixIconColor ?? AppColors.primaryColor),
+                              color: prefixIconColor ?? AppColors.blackPearl),
                           const SizedBox(width: width10),
                           Row(
                             children: <Widget>[
@@ -88,9 +86,9 @@ class AppElevatedButton extends StatelessWidget {
                                 style: AppStyles.labelLarge.copyWith(
                                   color: isActive
                                       ? onlyOutline
-                                          ? textColor ?? AppColors.primaryColor
+                                          ? textColor ?? AppColors.blackPearl
                                           : textColor ?? AppColors.white
-                                      : AppColors.paleSky,
+                                      : AppColors.blackPearl,
                                 ),
                               ),
                             ],
@@ -106,9 +104,9 @@ class AppElevatedButton extends StatelessWidget {
                             style: AppStyles.labelLarge.copyWith(
                               color: isActive
                                   ? onlyOutline
-                                      ? textColor ?? AppColors.primaryColor
+                                      ? textColor ?? AppColors.blackPearl
                                       : textColor ?? AppColors.white
-                                  : AppColors.paleSky,
+                                  : AppColors.blackPearl,
                             ),
                           ),
                           Row(

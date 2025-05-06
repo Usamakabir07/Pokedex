@@ -3,7 +3,6 @@ import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'app/router/app_router.dart';
 import 'app/themes/app_colors.dart';
-import 'app/utils/constants/app_constants.dart';
 import 'app/utils/hide_keyboard.dart';
 import 'injectable/injectable.dart';
 
@@ -41,10 +40,6 @@ class MyApp extends StatelessWidget {
           GlobalMaterialLocalizations.delegate,
           GlobalWidgetsLocalizations.delegate,
           GlobalCupertinoLocalizations.delegate,
-        ],
-        supportedLocales: const [
-          Locale(AppConstants.en),
-          Locale(AppConstants.pl),
         ],
         routerDelegate: _appRouter.delegate(),
         routeInformationParser: _appRouter.defaultRouteParser(),
