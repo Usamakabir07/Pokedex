@@ -88,7 +88,8 @@ class PokemonPageBody extends StatelessWidget {
                     padding: const EdgeInsets.only(bottom: padding100),
                     itemBuilder: (context, index) {
                       final pokemon = pokemonsData[index];
-                      return PokemonInfoWidget(pokemon: pokemon);
+                      return PokemonInfoWidget(
+                          key: ValueKey(pokemon.name), pokemon: pokemon);
                     },
                   );
                 },

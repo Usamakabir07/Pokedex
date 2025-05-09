@@ -1,0 +1,2 @@
+/Users/usamacloud/Pokedex/android/app/.cxx/Debug/2r1un6f3/x86/CMakeFiles/edit_cache.dir
+/Users/usamacloud/Pokedex/android/app/.cxx/Debug/2r1un6f3/x86/CMakeFiles/rebuild_cache.dir
